@@ -1,5 +1,5 @@
 const app = {
-  hello: 'world'
+  hello: 'world 2'
 };
 
 export default app;
