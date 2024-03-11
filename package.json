@@ -22,7 +22,12 @@
     "prisma:studio": "prisma studio",
     "prisma:tidy": "prisma format",
     "prisma:generate": "prisma generate",
-    "prisma:seed": "prisma db seed"
+    "prisma:seed": "prisma db seed",
+    "ci": "rm -rf node_modules && yarn install --frozen-lockfile",
+    "docker:build":"docker compose build",
+    "docker:start":"docker compose up",
+    "docker:stop":"docker kill nextapp"
+
   },
   "prisma": {
     "seed": "ts-node prisma/seed.ts"
